@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordermania.com</title>
+</head>
+<style>
+    /* body{
+        background-image: url(meat-4k-windows-hd-download-wallpaper-preview.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 100vh;
+    } */
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin:0;
+    }
+    header{
+        width: 100%;
+        background-color:aliceblue;
+        border: 1px solid white;
+        border-radius: 0px 0px 100px 100px;
+        position:fixed;
+        top: 0%;
+        
+        
+    }
+    .fastfood{
+        width: 10%;
+        border-radius: 100px ;
+        padding: 0px;
+        border: 1px white;
+        
+    }
+    .nav{
+        font-size:medium;
+        text-decoration: none;
+        margin: 20px;
+        padding: 11px;
+        color: black;
+        background-color: orangered;
+        border-radius: 100px;
+        border: none;
+        font-size: medium;
+
+    }
+
+    .nav-select{
+        margin: 10px;
+        padding:11px;
+        color: black;
+        background-color: orangered;
+        border-radius: 100px;
+    }
+    #yo{
+        margin: 5px;
+        padding: 8px;
+        font-size:medium;
+        color: black;
+        border: none;
+        background-color: orangered;
+        border-radius: 100px;
+    }
+    .second{
+        box-sizing: border-box;
+        background-color: orangered;
+        /* border-style: none; */
+        /* border-radius: 5px; */
+        padding: 1em;
+        padding:140px;
+        font-size:x-large;
+        background-image: url(f6.jpg);
+        background-position:right;
+        animation: change 30s infinite ease-in-out;
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    @keyframes change{
+      20%{
+        background-image: url(f1.jpg);
+      }
+      40%{
+        background-image: url(f2.jpg);
+      }
+      60%{
+       background-image: url(f4.jpg);
+      }
+      80%{
+       background-image: url(f6.jpg);
+      }
+      100%{
+       background-image: url(f7.jpg);
+      }
+     
+    }
+    .ordernow{
+        text-decoration: none;
+        padding: 5px;
+        font-size: large;
+        color: black;
+        border-radius: 100px;
+    }
+    .ordernow:hover{
+        background-color:grey;
+    }
+   .outside{
+    padding: 12px;
+    background-color: orangered;
+    border-radius: 50px;
+    border: none;
+   }
+   .third{
+        padding: 80px;
+        font-size:x-large;
+        background-image: url(second1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+   }
+   .pre{
+    text-align:left;
+    color: grey;
+   }
+   .pic{
+    box-sizing: border-box;
+    border-style:none;
+    float:right;
+    background-color: orangered;
+    border-radius: 5px;
+    /* width: 20%; */
+    padding: 1em;
+   }
+   .forth{
+    /* padding: 80px; */
+    color: black;
+    font-size: x-large;
+    text-align: center;
+   }
+   .name{
+    color: grey;
+    font-size: larger;
+   }
+   .fifth{
+    /* padding: 50px; */
+    font-size: x-large;
+    color: black;
+    text-align: center;
+   }
+   .pic2{
+    background-color: orangered;
+    border-radius: 5px;
+    border: 1px ;
+    padding: 5px;
+    margin-left: -6px;
+    margin-right: -6px;
+   }
+   .gallery{
+    text-align:justify;
+    text-decoration: none;
+    color: black;
+    border-radius: 100px;
+    padding: 5px;
+    margin: 5px;
+   }
+   .gallery:hover{
+   background-color: grey;
+   }
+   .buton{
+    background-color: orangered;
+    border-radius: 100px;
+    padding: 10px;
+    border: none;
+    
+   }
+   .review{
+ font-size:x-large;
+ width: 100%;
+   }
+   .cus{
+    text-align: center;
+   }
+   .one{
+    font-style: bold;
+    width: 25%;
+    text-align: center;
+   }
+ .on{
+    text-align: center;
+    font-style: italic;
+ }
+.pho{
+font-size: large;
+text-align: left;
+/* float:left; */
+margin: 5px;
+padding: 10px;
+/* width: 20%; */
+}
+.mai{
+    font-size: larger;
+    text-align: center;
+    /* float:right; */
+    margin: 5px;
+    padding: 10px;
+}
+.loc{
+    font-size: large;
+    text-align: right;
+    /* float: right; */
+    margin: 5px;
+    padding: 10px;
+}
+.buton1{
+    background-color: orangered;
+    border-radius: 100px;
+    padding: 6px;
+    border: none;
+}
+.nav1{
+        text-decoration: none;
+        margin: 11px;
+        padding: 6px;
+        color: black;
+        background-color: orangered;
+        border: none;
+        border-radius: 100%;
+}
+.nav1:hover{
+    background-color: grey;
+    
+}
+.quick,.about,.ema,.ope{
+    font-size: x-large;
+    padding: 20px;
+    margin: 10px;
+}
+.mail{
+    font-size:large;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 100px;
+    text-align: center;
+}
+.contain{
+    width: 100%;
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    background-image: url(third.jpg);
+    background-repeat: no-repeat;
+        background-size: cover;
+    /* display: grid;
+    grid-template-columns: auto auto auto auto auto; */
+
+}
+.whole{
+    display:grid;
+    grid-template-columns: auto auto auto auto ;
+}    
+.abo{
+    font-size: medium;
+    font-style: italic;
+    text-align: start;
+    color: grey;
+    font-style: bold;
+}
+</style>
+
+<body>
+    <header>
+   <div>
+        <nav>
+            <span>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   <a href="order.html" ><img src="download1.png" alt="Fast_Food" class="fastfood"></a></a>
+        </span>
+     <span class="button">
+        <button class="nav"><a href="order.html" target="_blank"class="nav"><b>HOME</b></a></button>&nbsp;&nbsp;&nbsp;
+        <button class="nav"><a href="order.html"target="_blank" class="nav"><b>MENU</b></a></button>&nbsp;&nbsp;&nbsp;
+        <button class="nav"><a href="order.html"target="_blank" class="nav"><b>ORDERs</b></a></button>&nbsp;&nbsp;&nbsp;
+        <button class="nav"><a href="order.html"target="_blank" class="nav"><b>CONTACT</b></a></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
+     </span>
+        <span class="nav-select">
+            <select name="SELECT" id="yo">
+                <option value="select" class="select"><b>SELECT CITY</b></option>
+                <option value="Mumbai"><b>MUMBAI</b></option>
+                <option value="Delhi"><b>DELHI</b></option>
+                <option value="Bangalore"><b>BANGALORE</b></option>
+            </select>
+        </span></nav>
+         
+</header>
+<main>
+   <div class="second">
+     <span><br><br><br><br>
+        <h1><b>WELCOME TO</b></h1>
+        <h1><b>FASTTREK</b></h1>
+     </span><br><br>
+     <button class="outside"><span>  <a href="" class="ordernow"><b>Order now</b></a></span></button><br><br><br><br><br><br><br><br>
+   </div>
+   <div class="third">
+     <span>
+        <img src="1.webp" alt="" width="32%" class="pic"><br><br>
+        <h2><b>WELCOME TO</b></h2>
+        <h2><b> FASTTREK</b></h2>
+        <p><b>Little Story</b></p>
+        <span class="pre">
+            <pre><i> <br>
+  <b> For us, it's not just about
+  bringing you good food from your 
+  favourite restaurants.It's about 
+  making a connection, which is why 
+ we sit down with the chefs, dreaming up
+  menus that will arrive fresh and full of
+  flavour. Try us!</b></i></pre>
+        </span><br>
+   </div>
+   <div class="forth"><br><br><br>
+   <span > <h3>" Your diet is a bank account. Good food choices are good investments. "</h3></span>
+    <span class="name"><h3>Bethenny Frankel</h3></span><br><br>
+   </div>
+   <div class="fifth">
+    <span><h3><b>Gallery</b></h3></span><br>
+    <span >
+        <img src="01.jpg" alt=""width="33%" class="pic2">
+        <img src="02.jpg" alt=""width="33%" class="pic2">
+        <img src="03.jpg" alt=""width="33%" class="pic2">
+        <img src="04.jpg" alt=""width="33%" class="pic2">
+        <img src="05.jpg" alt=""width="33%" class="pic2">
+        <img src="06.jpg" alt=""width="33%" class="pic2"><br>
+    </span>
+    <span ><br>
+    <button class="buton"><a href="" class="gallery"><b>Go To Gallery</b></a></button>
+    </span>
+   </div>
+   <footer><br><br>
+    <div class="review">
+        <span class="cus" ><h3>Customer Reviews</h3></span>
+        <span><br><br>
+            <span class="one" width="25%"><h4><b>Ankit Yadav</b></h4><br>
+                <pre class="on"><b>True value for money. good quality, quantity as well
+         as good delivery service.Tastewise it is one of the best restaurant.</b></span></pre><br>
+            <!-- <span class="two" width="25%"> <h4><b>Pawan Kumar</b></h4>
+                <pre><b>Value for money. good quality, quantity as well as
+         good delivery service.Tastewise it is one of the best restaurant.</b></pre></span><br>
+           <span class="three" width="25%"> <h4><b>Jitu Vishwakarma</b></h4>
+            <pre><b>Brilliant service and very tasty food. I've ordered food from ORDERMANIA,
+ their food and customer service are excellent. There's been a hiccup recently
+  with a delivery but the communication was great and the issue resolved quickly.
+     Would highly recommend.Five stars!</b></pre></span><br>
+           <span class="four" width="25%"> <h4><b>Prashant Sri</b></h4>
+<pre><b>Handy app which makes it easy to choose from the menu of various restaurants in the city.
+ The prices are affordable, and the service is excellent.</b></pre></span>
+        </span> <br> -->
+
+    </div>
+    <div class="contain"><br><br><br>
+        <span><button class="buton"><span class="pho"><h4><b>Phone Number</b></h4>
+            <a href="tel:8948884644" class="nav1">+918949994644</a></span>
+    <span></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span><button class="buton"><h2>>></h2></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+      <span> <button class="buton"> <span class="mai">
+        <h4><b>Mail ID</b></h4>
+      <h5><b>Fasttrek@gmail.com</b></h5></span>
+    <span></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    <span><button class="buton"><h2>>></h2></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <button class="buton"><span class="loc">
+           <span> <h4><b>Location</b></h4> 
+                  <a href="" class="nav1"> Locate us</a> </span></button></span><br><br>
+    </div>
+    <div class="whole">
+     <span class="about">
+        <h5><b>ABOUT US</b></h5><hr><br><pre class="abo"><b>
+          FOODTREK provides not only information
+          related to nearby restaurants but also provides
+          facilities such as online ordering. The logo of
+          ORDERMANIA represents simly the name of company
+          and indicate the love for good food. As it's mis
+          sion is to ensure that "Nobody has bad meal"
+          QUICK LINKS Games Home Menu Gallery About Us
+          Contact UsTerms And Conditions Faq's
+          </b></pre>
+     </span>
+     <span class="quick">
+        <h5><b>Quick Links</b></h5><hr><br>
+        <button class="buton1"><a href="" class="nav1">Game</a></button>&nbsp;|
+        <button class="buton1"><a href="" class="nav1">Home</a></button>&nbsp;
+        <button class="buton1"><a href="" class="nav1">Menu</a></button>&nbsp;|
+        <button class="buton1"><a href="" class="nav1">Gallery</a></button>&nbsp;
+        <button class="buton1"><a href="" class="nav1">Contact us</a></button>&nbsp;|
+        <button class="buton1"><a href="" class="nav1">About us</a></button>&nbsp;
+        <button class="buton1"><a href="" class="nav1">Term & Condition</a></button>&nbsp;|
+        <button class="buton1"><a href="" class="nav1">FaQs</a></button>&nbsp;
+        <button class="buton1"><a href="" class="nav1">Privacy</a></button>&nbsp;
+     </span>
+     <span class="ema">
+        <form action="#">
+            <h5 class="email"><b>Email</b></h5><hr><br>
+            <input type="mail" class="mail" placeholder="imrankhan59631@gmail.com"><br>
+            <!-- <a href="mailto:imrankhan59631@gmail.com">Mail To</a> -->
+           <button class="buton1"> <input type="submit" placeholder="Subscribe" value="Subscribe" name="Subscribe" class="nav1"></button>
+        </form>
+     </span>
+     <span class="ope">
+        <h5><b>Opening Hours </b></h5><hr><br>
+        <h6><b>Monday: Closed </b></h6> <br>
+        <h6><b>Tue-Wed : 9:Am - 10PM</b></h6> <br>
+        <h6><b>Thu-Fri : 9:Am - 10PM</b></h6>  <br>       
+        <h6><b>Sat-Sun : 5:PM - 10PM</b></h6>
+     </span><br>
+    </div><hr>
+    <div class="mail" >
+<h5><b>All Rights Reserved. © 2020 FOODTREK</b></h5>
+    </div>
+   </footer>
+   
+</main>
+</body>
+</html>
